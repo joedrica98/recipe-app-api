@@ -9,7 +9,7 @@ from psycopg2 import OperationalError as Psycopg2Error
 
 
 class Command(BaseCommand):
-    """Django command to wait for database"""
+    """Django command to wait for database."""
 
     def handle(self, *args, **options):
         """Entrypoint for command."""
