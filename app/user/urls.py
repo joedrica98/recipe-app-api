@@ -1,8 +1,6 @@
 """
 Url mappings for the user API.
 """
-
-from django.contrib import admin
 from django.urls import path
 
 from user import views
